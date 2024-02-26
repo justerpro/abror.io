@@ -295,11 +295,11 @@ nav ul li:hover::after{
    flex-basis: 55%;
 }
 .contact-left h2{
-   font-size: 140%;
-   margin-top: 15px;
+   font-size: 18px;
+   margin-top: 10px;
 }
 .contact-left p{
-   margin-top: 20px;
+   margin-top: 15px;
 }
 .contact-left i{
    color: #ff004f;
