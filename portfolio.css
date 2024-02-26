@@ -366,7 +366,7 @@ form input, form textarea {
    font-size: 23px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
    .container {
       padding: 10px 10%;
    }
