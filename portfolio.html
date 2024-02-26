@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+				<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+				<title>Hello, World!</title>
+				<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">				
+				<link rel="stylesheet" href="portfolio.css"/>
+</head>
+<body>
+				<div id="header">
+								
+								<nav>
+												<div class="fix">
+												<h1 class="logo"><span>A</span>broR</h1>
+													<i class="material-icons menu"onclick="openmenu()">menu</i>														
+												</div>
+												<div class="container">	
+												<ul id="option">
+																<a href="#header" onclick="hide()" ><li class="open" onclick="change('home')"><i class="material-icons">home</i><br>Home</li></a>
+																<!--<a href="#"><li><i class="material-icons">code</i><br>HTML</li></a>
+																<a href="#"><li><i class="material-icons">code</i><br>CSS</li></a>
+																<a href="#"><li><i class="material-icons">code</i><br>JS</li></a>-->
+																<a href="#portfolio"onclick="hide()"><li><i class="material-icons open" onclick="change('portfolio')">work</i><br>Portfolio</li></a>
+																<a href="#about"onclick="hide()"><li><i class="material-icons open"onclick="change('about')">help</i><br>About me</li></a>
+																<a href="#contact"onclick="hide()"><li><i class="material-icons open" onclick="change('contact')">mail</i><br>Contact</li></a>
+																<i class="material-icons cancel"onclick="closemenu()">cancel</i>
+												</ul>
+														</nav>
+												<div class="introduction">
+								<h2>Introduction</h2>
+								<p>
+												Welcome to my website. The purpose of this website is to show you my progress of learning front-end developing within one month (today is the 42th day). I collected all information related to front-end. I hope it will be a good tool for students!) 
+								</p>
+								</div>
+								</div>
+								<h3 id="front">Do you want to learn <span>FRONT END</span>?</h3>
+												<br>
+								<div class="choices">
+												
+												<a href="soon.html"><button><img src="image/html.jpg"</button></a>
+												<a href="soon.html"><button><img src="image/css.jpg"</button></a>
+            <a href="soon.html"><button><img src="image/js.jpg"</button></a>
+								</div>								
+						</div>
+																<!------------about---------- -->
+													<div id="about">
+																<div class="container">
+																				<div id="row">
+																								<div class="about1">
+																												<img src="image/face.jpg">
+																								</div>
+																								<div class="about2">
+																												<h1 class="about-text">About me</h1>
+																												<p class="p2">My name is Abror. I am a junior front end developer, this is my first portfolio website. I am from Uzbekistan and I am 18 years old.</p>
+																												<div class="tab-content">
+																																<p class="tab-link active-section" onclick="opentab('skills')">Skills</p>
+																																<p class="tab-link" onclick="opentab('experience')">Experience</p>
+																																<p class="tab-link" onclick="opentab('education')">Education</p>
+																												</div>
+																												<div class="tab-text active-tab" id="skills">
+																																<ul>
+																																				<li><span>Uzbek</span><br>Fluent</li>
+																																				<li><span>Russian</span><br>Advanced</li>
+																																				<li><span>English</span><br>Upper-Intermediate</li>
+																																</ul>
+																												</div>
+																												<div class="tab-text" id="experience">
+																																<ul>
+																																				<li><span>Html, CSS, JS</span><br>1 month and 12 days</li>
+																																				<!--<li><span></span><br></li>
+																																				<li><span>English</span><br>Upper-Intermediate</li>-->
+																																</ul>
+																												</div>
+																												<div class="tab-text" id="education">
+																																<ul>
+																																				<li><span>School</span><br>2012-2023</li>
+																																				<li><span>English</span><br>1 year and 2 months</li>
+																																				<li><span>Bachelor degree</span><br>Entered in 2023, still studying (1st grade)</li>
+																																				<li><span>React</span><br>In process</li>
+																																</ul>
+																												</div>
+																								</div>																							
+																				</div>
+																</div>
+													</div>
+																<!-- portfolio ---------- -->
+																<div id="portfolio">
+																				<div class="container">
+																								<h1 class="sub-title">My works</h1>
+																								<div class="work-list">
+																												<div class="work">
+																																<img src="image/weather.jpg">
+																																<div class="layer">
+																																<h3>Weather app</h3>
+																																<p>Click if you want to look at the code</p>
+																														 	<a href="soon.html"><i class="material-icons">link</i></a>
+																																</div>
+																												</div>
+																												<div class="work">
+																																<img src="image/stopwatch.jpg">
+																																<div class="layer">
+																																				<h3>Stopwatch app</h3>
+																																				<p>Click if you want to look at the code</p>
+																																				<a href="soon.html"><i class="material-icons">link</i></a>
+																																</div>
+																												</div>
+																												<div class="work">
+																																<img src="image/roundclock.jpg">
+																																<div class="layer">
+																																<h3>Round Clock app</h3>
+																																<p>Click if you want to look at the code</p>
+																																<a href="soon.html"><i class="material-icons">link</i></a>
+																																</div>
+																												</div>
+																								</div>
+																								<a href="soon.html" class="btn">See more</a>
+																				</div>
+																</div>
+																<!-- contact form -->
+																<div id="contact">
+																				<div class="container">
+																					 <div id="row">
+																								<div class="contact-left">
+																												<h2><i class="material-icons"></i>Contact me</h2>
+																												<p><i class="material-icons">phone</i>+99897-***-***-**</p>	
+																												<p><i class="material-icons">mail</i>abrorrr15@gmail.com</p>
+																												<div class="social-icons">
+																												<a href="soon.html"><i class="material-icons">facebook</i></a>
+																												<a href="soon.html"><img src="image/instagram1.svg"></a>
+																												<a href="soon.html"><i class="material-icons">telegram</i></a>
+																												</div>
+																												<a href="soon.html" class="btn btn2">Download CV</a>
+																								</div>
+																								<div class="contact-right">
+																												<form>
+																												<input type="text" name="name" placeholder="Enter your name..." required><br>
+																												<input type="email" name="email" placeholder="Enter your email..." required><br>
+																												<textarea name="Message" rows="6" placeholder="Type your message..."></textarea><br>
+																												<button type="submit" class="btn btn2">submit</button>
+																												</form>
+																									</div>
+																					 </div>
+																				</div>
+																				<div class="foot">
+																								<p>Made By <span>A</span>bror using YouTube and Studio Code [25.02.2024]</p>
+																				</div>
+																</div>
+								<script src="portfolio.js"></script>
+								<script src="app.js"></script>
+</body>
+</html>
